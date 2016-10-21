@@ -1,0 +1,3 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.App\bin\Debug\QuizEngine.App.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.App\obj\Debug\QuizEngine.App.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.App\obj\Debug\QuizEngine.App.pdb

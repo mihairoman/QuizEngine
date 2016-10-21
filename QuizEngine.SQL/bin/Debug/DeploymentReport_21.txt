@@ -1,0 +1,59 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Choices] (Table)
+       [dbo].[Quizes] (Table)
+       [dbo].[QuizTemplates] (Table)
+       [dbo].[Choices_Insert] (Procedure)
+       [dbo].[Choices_ReadAll] (Procedure)
+       [dbo].[Choices_ReadByQuestionID] (Procedure)
+       [dbo].[Choices_Update] (Procedure)
+       [dbo].[Quiz_Insert] (Procedure)
+       [dbo].[Quiz_ReadAll] (Procedure)
+       [dbo].[Quiz_ReadById] (Procedure)
+       [dbo].[QuizTemplates_Insert] (Procedure)
+       [dbo].[QuizTemplates_ReadAll] (Procedure)
+       [dbo].[QuizTemplates_ReadById] (Procedure)
+       [dbo].[Categories_CountUsingQuestions] (Procedure)
+       [dbo].[Categories_ReadAll] (Procedure)
+       [dbo].[Levels_ReadAll] (Procedure)
+       [dbo].[Levels_ReadByDifficulty] (Procedure)
+       [dbo].[QuizView_Read] (Procedure)
+       [dbo].[Tags_ReadAll] (Procedure)
+       [dbo].[Users_ReadAllFilltered] (Procedure)
+     Create
+       [dbo].[Levels_CanBeDeleted] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Quizes_ToCategories] (Foreign Key)
+       [dbo].[FK_Quizes_ToLevels] (Foreign Key)
+     Create
+       [dbo].[FK_Quizes_ToCategories] (Foreign Key)
+       [dbo].[FK_Quizes_ToLevels] (Foreign Key)
+     Refresh
+       [dbo].[ArchivedQuestions_InsertById] (Procedure)
+       [dbo].[Choices_Delete] (Procedure)
+       [dbo].[Choices_DeleteByQuestionID] (Procedure)
+       [dbo].[Choices_ReadByID] (Procedure)
+       [dbo].[ArchivedQuestions_ReadAllByQuizID] (Procedure)
+       [dbo].[Categories_CanBeDeleted] (Procedure)
+       [dbo].[FreeTextQuizView_CountAllFilteredQuizzes] (Procedure)
+       [dbo].[Quiz_CountAllPredefined] (Procedure)
+       [dbo].[Quiz_CountAllRandom] (Procedure)
+       [dbo].[Quiz_Delete] (Procedure)
+       [dbo].[Quiz_Update] (Procedure)
+       [dbo].[QuizesPerUserView_ReadAll] (Procedure)
+       [dbo].[QuizUserPreview_ReadAll] (Procedure)
+       [dbo].[QuizView_ReadAll] (Procedure)
+       [dbo].[QuizTemplate_Count] (Procedure)
+       [dbo].[QuizTemplateView_ReadAll] (Procedure)

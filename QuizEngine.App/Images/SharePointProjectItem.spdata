@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
+    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="activateuser.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="add.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="animated-overlay.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="close.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="close-icon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="deactivateuser.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="delete.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="delete_and_replace.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="down_arrow.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="edit.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="GoogleSingIn.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="imgBackground.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="loadingcircles.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="new-guy.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="OK.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="remove.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="right_arrow.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-bg_flat_0_aaaaaa_40x100.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-bg_flat_0_effbfd_40x100.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-bg_flat_0_ffffff_40x100.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-bg_flat_95_ffffff_40x100.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-icons_2e83ff_256x240.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-icons_222222_256x240.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-icons_a2a1a1_256x240.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="ui-icons_cd0a0a_256x240.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="umt.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="up_arrow.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="WeAreNotTheSameButAPair.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="windows-logo.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="wrong.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="x.png" Target="Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

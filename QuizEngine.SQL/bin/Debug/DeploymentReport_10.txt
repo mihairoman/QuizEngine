@@ -1,0 +1,60 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[FK_Choices_Questions] (Foreign Key)
+       [dbo].[FK_QuestionTags_Questions] (Foreign Key)
+     Alter
+       [dbo].[Choices] (Table)
+       [dbo].[Choices_Insert] (Procedure)
+       [dbo].[Answers_DeleteAnswerText] (Procedure)
+       [dbo].[Answers_DeleteGrade] (Procedure)
+       [dbo].[Answers_ReadByID] (Procedure)
+     Create
+       [dbo].[QuizTemplates] (Table)
+       [dbo].[TemplateQuestionLinks] (Table)
+       [dbo].[FK_Choices_Questions] (Foreign Key)
+       [dbo].[FK_QuestionTags_Questions] (Foreign Key)
+       [dbo].[FK_SpecialQuizQuizestionLinks_SpecialQuizes] (Foreign Key)
+       [dbo].[QuestionMultipleTags] (Function)
+       [dbo].[SplitStringList] (Function)
+       [dbo].[ArchivedQuestions_InsertById] (Procedure)
+       [dbo].[Categories_CanBeDeleted] (Procedure)
+       [dbo].[Categories_CountUsingQuestions] (Procedure)
+       [dbo].[Choices_DeleteByQuestionID] (Procedure)
+       [dbo].[Choices_ReadByQuestionID] (Procedure)
+       [dbo].[FreeTextQuizView_ReadAll] (Procedure)
+       [dbo].[Levels_ReadByDifficulty] (Procedure)
+       [dbo].[Question_ReadAllFiltered] (Procedure)
+       [dbo].[Questions_ReadByQuizTemplateID] (Procedure)
+       [dbo].[QuestionTags_DeleteByQuestionID] (Procedure)
+       [dbo].[QuestionTags_InsertByQuestionGUIDAndListOfTagGUID] (Procedure)
+       [dbo].[QuizesPerUserView_ReadAll] (Procedure)
+       [dbo].[QuizResultView_ReadResult] (Procedure)
+       [dbo].[QuizTemplates_Insert] (Procedure)
+       [dbo].[QuizTemplates_ReadAll] (Procedure)
+       [dbo].[QuizTemplates_ReadById] (Procedure)
+       [dbo].[QuizTemplateView_ReadAll] (Procedure)
+       [dbo].[QuizUserPreview_ReadAll] (Procedure)
+       [dbo].[Tags_ReadAllByQuestionID] (Procedure)
+       [dbo].[TemplateQuestionLinks_Insert] (Procedure)
+       [dbo].[TemplateQuestionLinks_ReadAll] (Procedure)
+       [dbo].[TemplateQuestionLinks_ReadByQuizId] (Procedure)
+       [dbo].[Users_ReadByEmail] (Procedure)
+       [dbo].[Users_ReadPermissions] (Procedure)
+       [dbo].[Users_UpdatePermissions] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[Choices_Delete] (Procedure)
+       [dbo].[Choices_ReadAll] (Procedure)
+       [dbo].[Choices_ReadByID] (Procedure)
+       [dbo].[Choices_Update] (Procedure)

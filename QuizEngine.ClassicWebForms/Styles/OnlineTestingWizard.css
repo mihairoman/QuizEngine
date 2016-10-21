@@ -1,0 +1,110 @@
+﻿#wizardBody {
+    min-height: 100% !important;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 650px !important;
+}
+
+#quizBody {
+    display: block;
+    margin-bottom: 3%;
+    width: 100%;
+    min-height: 100% !important;
+}
+
+#header {
+    color: white;
+    background-color: #9B9B9B;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 3%;
+}
+
+.questions {
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    white-space: pre-wrap;
+    display: block;
+}
+
+    .questions p {
+        font-size: 112%;
+    }
+
+.choices {
+    margin-top: 4%;
+    margin-left: 8%;
+    display: block;
+    white-space: pre-wrap;
+}
+
+    .choices div {
+        margin-top: 2%;
+    }
+
+.buttons {
+    margin-right: 3%;
+    margin-top: 1%;
+    display: block;
+    text-align: center !important;
+}
+
+    .buttons #btnPrev {
+        text-align: center !important;
+        padding-right: 8%;
+        display: none;
+        float: left;
+        width: 75px;
+    }
+
+    .buttons #btnSubmit {
+        text-align: center !important;
+        display: none;
+        float: right;
+        width: 75px;
+        font-weight: bold;
+        padding-right: 5%;
+    }
+
+    .buttons #btnNext {
+        text-align: center !important;
+        float: right;
+        width: 75px;
+    }
+
+.questionsList {
+    position: absolute;
+}
+
+    .questionsList li span {
+        font-size: medium !important;
+    }
+
+        .questionsList li span div {
+            font-size: small !important;
+            font-weight: normal;
+        }
+
+.highlighted {
+    color: white !important;
+    background-color: #93bed9 !important;
+}
+
+.highlighted2 {
+    color: white !important;
+}
+
+#timer {
+    position: absolute;
+    top : -3%;
+    right : 0%;
+   
+}
+
+    #timer span {
+        font-weight : bold;
+         color : #59a05f !important;
+    }

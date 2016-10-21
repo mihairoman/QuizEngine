@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPages">
+    <File Path="MasterPages\app.master" Url="MasterPages/app.master" ReplaceContent="TRUE" />
+    <File Path="MasterPages\Site.Master" Url="MasterPages/Site.Master" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

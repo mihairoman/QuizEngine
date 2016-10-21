@@ -1,0 +1,9 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\bin\Debug\QuizEngine.SQL.dacpac
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\bin\Debug\QuizEngine.SQL.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\bin\Debug\QuizEngine.SQL.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\obj\Debug\Model.xml
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\obj\Debug\refactor.xml
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\obj\Debug\postdeploy.sql
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\obj\Debug\predeploy.sql
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\obj\Debug\QuizEngine.SQL.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.SQL\obj\Debug\QuizEngine.SQL.pdb

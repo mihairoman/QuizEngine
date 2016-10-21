@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[LinkPermission] (Table)
+       [dbo].[FreeTextQuestionsView_ReadAll] (Procedure)
+       [dbo].[LinkPermission_ReadLinkPermissionsByUserGuid] (Procedure)
+       [dbo].[Question_CountAllQuestions] (Procedure)
+     Alter
+       [dbo].[FreeTextQuizView_ReadAll] (Procedure)
+       [dbo].[Question_ReadAllFiltered] (Procedure)
+
+** Supporting actions

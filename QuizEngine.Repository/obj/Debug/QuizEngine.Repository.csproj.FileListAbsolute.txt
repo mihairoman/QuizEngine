@@ -1,0 +1,13 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Repository.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Repository.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.AssemblyResources.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Infrastructure.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Library.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Model.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.AssemblyResources.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Infrastructure.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Library.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\bin\Debug\QuizEngine.Model.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\obj\Debug\QuizEngine.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\obj\Debug\QuizEngine.Repository.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Repository\obj\Debug\QuizEngine.Repository.pdb

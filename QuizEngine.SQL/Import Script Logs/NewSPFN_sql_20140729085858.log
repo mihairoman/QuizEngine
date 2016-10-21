@@ -1,0 +1,43 @@
+7/29/2014 11:58:58 AM	This log contains information about the import operation of the script 'NewSPFN.sql' into project 'QuizEngine.SQL' on computer 'MIHAI-VM' by user'mihai.roman.
+7/29/2014 11:58:58 AM	Started importing file: C:\Users\mihai.roman\Documents\NewSPFN.sql 
+7/29/2014 11:58:58 AM	File name C:\Users\mihai.roman\Documents\NewSPFN.sql (size: 27344)
+7/29/2014 11:58:58 AM	Parsing import script
+7/29/2014 11:58:58 AM	Total number of batches in script: 81
+7/29/2014 11:58:58 AM	Total number of statements in script: 33
+7/29/2014 11:58:58 AM	The script was successfully imported into the project.
+7/29/2014 11:58:58 AM	Analyzing schema objects...
+7/29/2014 11:58:58 AM	Scanning project for duplicate elements
+7/29/2014 11:58:58 AM	Element 'Answers' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Answers.sql'.
+7/29/2014 11:58:58 AM	Element 'ArchivedChoices' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\ArchivedChoices.sql'.
+7/29/2014 11:58:58 AM	Element 'ArchivedQuestions' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\ArchivedQuestions.sql'.
+7/29/2014 11:58:58 AM	Element 'Categories' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Categories.sql'.
+7/29/2014 11:58:58 AM	Element 'Choices' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Choices.sql'.
+7/29/2014 11:58:58 AM	Element 'Levels' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Levels.sql'.
+7/29/2014 11:58:58 AM	Element 'Permissions' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Permissions.sql'.
+7/29/2014 11:58:58 AM	Element 'Questions' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Questions.sql'.
+7/29/2014 11:58:58 AM	Element 'QuestionTags' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\QuestionTags.sql'.
+7/29/2014 11:58:58 AM	Element 'Quizes' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Quizes.sql'.
+7/29/2014 11:58:58 AM	Element 'QuizUserLinks' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\QuizUserLinks.sql'.
+7/29/2014 11:58:58 AM	Element 'Tags' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Tags.sql'.
+7/29/2014 11:58:58 AM	Element 'Users' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Users.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Answers_ArchivedChoice' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Answers.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Answers_ArchivedQuestions1' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Answers.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Answers_TakenQuizes' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Answers.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_AchivedChoice_ArchivedQuestions' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\ArchivedChoices.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_ArchivedQuestions_Categories' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\ArchivedQuestions.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_ArchivedQuestions_Levels' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\ArchivedQuestions.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_ArchivedQuestions_Quizes' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\ArchivedQuestions.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Choices_Questions' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Choices.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Permissions_ToTable' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Permissions.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Questions_Categories' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Questions.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Questions_Levels' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Questions.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_QuestionTags_Questions' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\QuestionTags.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_QuestionTags_Tags' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\QuestionTags.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Quizes_ToCategories' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Quizes.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_Quizes_ToLevels' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\Quizes.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_TakenQuizes_Quizes' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\QuizUserLinks.sql'.
+7/29/2014 11:58:58 AM	Element 'FK_TakenQuizes_Users' was merged into the existing script: 'C:\Projects\Internship\QuizEngine\QuizEngine.SQL\dbo\Tables\QuizUserLinks.sql'.
+7/29/2014 11:58:58 AM	Finished duplicate element processing
+7/29/2014 11:58:59 AM	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+7/29/2014 11:58:59 AM	A summary of the import was saved to the following location: C:\Projects\Internship\QuizEngine\QuizEngine.SQL\Import Script Logs\NewSPFN_sql_20140729085858.log
+7/29/2014 11:58:59 AM	Click Finish to continue...

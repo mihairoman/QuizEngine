@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[QuizTemplates](
+	[QuizTemplateGUID] [uniqueidentifier] NOT NULL,
+	[TypeName] [varchar](max) NOT NULL,
+ [Time] TIME NULL, 
+    CONSTRAINT [PK_SpecialQuizes] PRIMARY KEY CLUSTERED 
+(
+	[QuizTemplateGUID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]

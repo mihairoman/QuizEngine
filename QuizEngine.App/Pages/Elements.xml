@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\About.aspx" Url="Pages/About.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\AccessDenied.aspx" Url="Pages/AccessDenied.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\AdminDownloadGeneratedTest.aspx" Url="Pages/AdminDownloadGeneratedTest.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\AdminDownloadPredefinedTest.aspx" Url="Pages/AdminDownloadPredefinedTest.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\AdminGenerateOnlineLink.aspx" Url="Pages/AdminGenerateOnlineLink.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\AdminHomeScreen.aspx" Url="Pages/AdminHomeScreen.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\FreeTextQuestionsPendingAdminResponse.aspx" Url="Pages/FreeTextQuestionsPendingAdminResponse.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\GenerateQuiz.aspx" Url="Pages/GenerateQuiz.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\GoodbyePage.aspx" Url="Pages/GoodbyePage.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\HomePage.aspx" Url="Pages/HomePage.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Login.aspx" Url="Pages/Login.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ManageCategories.aspx" Url="Pages/ManageCategories.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ManageLevels.aspx" Url="Pages/ManageLevels.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ManageQuestions.aspx" Url="Pages/ManageQuestions.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ManageUsers.aspx" Url="Pages/ManageUsers.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\OnlineTestingWizard.aspx" Url="Pages/OnlineTestingWizard.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\PermissionDenied.aspx" Url="Pages/PermissionDenied.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\QuizGenerate.aspx" Url="Pages/QuizGenerate.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\QuizHistory.aspx" Url="Pages/QuizHistory.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\QuizShow.aspx" Url="Pages/QuizShow.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\QuizzesPerUser.aspx" Url="Pages/QuizzesPerUser.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\ScoreQuizzes.aspx" Url="Pages/ScoreQuizzes.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\UserHomeScreen.aspx" Url="Pages/UserHomeScreen.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\WelcomePage.aspx" Url="Pages/WelcomePage.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

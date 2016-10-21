@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[ArchivedChoices] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[ArchivedChoices_Delete] (Procedure)
+       [dbo].[ArchivedChoices_Insert] (Procedure)
+       [dbo].[ArchivedChoices_ReadAll] (Procedure)
+       [dbo].[ArchivedChoices_ReadByID] (Procedure)
+       [dbo].[ArchivedChoices_ReadByQuestionIDS] (Procedure)
+       [dbo].[ArchivedChoices_Update] (Procedure)
+       [dbo].[ArchivedQuestions_InsertById] (Procedure)
+       [dbo].[QuizResultView_ReadResult] (Procedure)

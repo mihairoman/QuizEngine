@@ -1,0 +1,7 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.Model\bin\Debug\QuizEngine.Model.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Model\bin\Debug\QuizEngine.Model.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Model\bin\Debug\QuizEngine.Library.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Model\bin\Debug\QuizEngine.Library.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Model\obj\Debug\QuizEngine.Model.csprojResolveAssemblyReference.cache
+C:\Projects\Internship\QuizEngine\QuizEngine.Model\obj\Debug\QuizEngine.Model.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Model\obj\Debug\QuizEngine.Model.pdb

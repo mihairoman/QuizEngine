@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Levels_ReadByDifficulty] (Procedure)
+     Create
+       [dbo].[GeneratedTests_ReadAllPredefined] (Procedure)
+       [dbo].[GeneratedTests_ReadAllRandom] (Procedure)
+       [dbo].[Quiz_CountAllPredefined] (Procedure)
+       [dbo].[Quiz_CountAllRandom] (Procedure)
+       [dbo].[QuizTemplate_Count] (Procedure)
+       [dbo].[QuizTemplateView_Read] (Procedure)
+       [dbo].[Users_CountAllUsers] (Procedure)
+       [dbo].[Users_ReadAllFilltered] (Procedure)
+       [dbo].[Users_WithoutQuizID_CountAll] (Procedure)
+       [dbo].[Users_WithoutTheQuizID] (Procedure)
+
+** Supporting actions

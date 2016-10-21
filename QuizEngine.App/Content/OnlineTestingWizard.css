@@ -1,0 +1,98 @@
+﻿#wizardBody {
+    min-height: 100% !important;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 650px !important;
+}
+
+#quizBody {
+    display: block;
+    margin-bottom: 3%;
+    width: 100%;
+    min-height: 100% !important;
+}
+
+#header {
+    font: bold 140% Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #9B9B9B;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 3%;
+}
+
+.questions {
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    white-space: pre-wrap;
+    display: block;
+}
+
+    .questions p {
+        font-size: 120%;
+        font-weight: normal;
+        font-family: Georgia, Arial, 'Times New Roman', serif;
+    }
+
+.choices {
+    margin-top: 4%;
+    margin-left: 8%;
+    display: block;
+}
+
+    .choices div {
+         font-family: Georgia, Arial, 'Times New Roman', serif;
+        margin-top: 2%;
+    }
+
+.buttons {
+    margin-right: 3%;
+    margin-top: 1%;
+    display: block;
+    text-align: center !important;
+}
+
+    .buttons #btnPrev {
+        display: none;
+        float: left;
+        width: 75px;
+    }
+
+    .buttons #btnSubmit {
+        display: none;
+        float: right;
+        width: 75px;
+        font-weight: bold;
+    }
+
+    .buttons #btnNext {
+        float: right;
+        width: 75px;
+    }
+
+.questionsList {
+    position: absolute;
+}
+
+.questionsList li span {
+    font-size: medium !important;
+    font-family: Georgia, Arial, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.questionsList li span div{
+    font-size: small !important;
+    font-family: Georgia, Arial, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+.highlighted {
+    color: white !important;
+    background-color: #4596FF !important;
+}
+
+.highlighted2 {
+    color: white !important;
+}

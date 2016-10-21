@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="About.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AccessDenied.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AdminDownloadGeneratedTest.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AdminDownloadPredefinedTest.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AdminGenerateOnlineLink.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AdminHomeScreen.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="FreeTextQuestionsPendingAdminResponse.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="GenerateFileHandler.ashx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="GenerateQuiz.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="GoodbyePage.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="HomePage.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Login.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageCategories.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageLevels.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageQuestions.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageUsers.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="OnlineTestingWizard.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="PermissionDenied.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizGenerate.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizHistory.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizShow.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizzesPerUser.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="ScoreQuizzes.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="UserHomeScreen.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="WelcomePage.aspx" Target="Pages\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Users] (
+    [UserGUID] UNIQUEIDENTIFIER NOT NULL,
+    [Username] NVARCHAR (MAX)    NOT NULL,
+    [Usertype] SMALLINT         CONSTRAINT [DF__Users__Usertype__25869641] DEFAULT ((0)) NOT NULL,
+    [IsActive] BIT              CONSTRAINT [DF__Users__IsActive__267ABA7A] DEFAULT ((1)) NOT NULL,
+    CONSTRAINT [PK__Users__81B7740CE954173C] PRIMARY KEY CLUSTERED ([UserGUID] ASC)
+);
+

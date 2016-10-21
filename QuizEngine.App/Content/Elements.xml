@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\EditQuestionStyle.css" Url="Content/EditQuestionStyle.css" ReplaceContent="TRUE" />
+    <File Path="Content\FreeTextQuestionValidationWizard.css" Url="Content/FreeTextQuestionValidationWizard.css" ReplaceContent="TRUE" />
+    <File Path="Content\HomePage.css" Url="Content/HomePage.css" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui.css" Url="Content/jquery-ui.css" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui.theme.css" Url="Content/jquery-ui.theme.css" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui.theme.min.css" Url="Content/jquery-ui.theme.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\LoginStyle.css" Url="Content/LoginStyle.css" ReplaceContent="TRUE" />
+    <File Path="Content\MasterPage.css" Url="Content/MasterPage.css" ReplaceContent="TRUE" />
+    <File Path="Content\OnlineTestingWizard.css" Url="Content/OnlineTestingWizard.css" ReplaceContent="TRUE" />
+    <File Path="Content\Popup.css" Url="Content/Popup.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

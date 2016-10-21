@@ -1,0 +1,93 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[QuizUserLinks].[OnlineOrDownloaded] is being dropped, data loss could occur.
+       The column [dbo].[QuizUserLinks].[OnlineOrDownloanded] on table [dbo].[QuizUserLinks] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+
+** User actions
+     Drop
+       [dbo].[FK_Quizes_Categories] (Foreign Key)
+       [dbo].[FK_Quizes_Levels] (Foreign Key)
+     Alter
+       [dbo].[Answers] (Table)
+       [dbo].[ArchivedChoices] (Table)
+       [dbo].[Categories] (Table)
+       [dbo].[Choices] (Table)
+       [dbo].[Levels] (Table)
+       [dbo].[QuizUserLinks] (Table)
+       [dbo].[Tags] (Table)
+       [dbo].[Users] (Table)
+       [dbo].[Answers_DeleteAnswerText] (Procedure)
+       [dbo].[Answers_DeleteGrade] (Procedure)
+       [dbo].[Answers_Insert] (Procedure)
+       [dbo].[Answers_ReadByID] (Procedure)
+       [dbo].[Answers_Update] (Procedure)
+       [dbo].[ArchivedChoices_Insert] (Procedure)
+       [dbo].[ArchivedChoices_ReadAll] (Procedure)
+       [dbo].[ArchivedChoices_ReadByID] (Procedure)
+       [dbo].[ArchivedChoices_Update] (Procedure)
+       [dbo].[QuizView_ReadAll] (Procedure)
+       [dbo].[Choices_Insert] (Procedure)
+       [dbo].[Choices_ReadAll] (Procedure)
+       [dbo].[Choices_ReadByID] (Procedure)
+       [dbo].[Choices_Update] (Procedure)
+       [dbo].[QuizUserLink_Insert] (Procedure)
+       [dbo].[QuizUserLinks_ReadAll] (Procedure)
+       [dbo].[QuizUserLinks_ReadByQuizId] (Procedure)
+       [dbo].[QuizUserLinks_ReadByUserId] (Procedure)
+       [dbo].[QuizUserLinks_Update] (Procedure)
+       [dbo].[Users_Deactivate] (Procedure)
+       [dbo].[ArchivedQuestions_Insert] (Procedure)
+       [dbo].[Questions_Insert] (Procedure)
+     Create
+       [dbo].[FK_Quizes_ToCategories] (Foreign Key)
+       [dbo].[FK_Quizes_ToLevels] (Foreign Key)
+       [dbo].[QuestionTags_ReadQuestionsByTagName] (Procedure)
+       [dbo].[Users_Delete] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[Answers_ReadAll] (Procedure)
+       [dbo].[ArchivedChoices_Delete] (Procedure)
+       [dbo].[Categories_Delete] (Procedure)
+       [dbo].[Categories_Insert] (Procedure)
+       [dbo].[Categories_ReadAll] (Procedure)
+       [dbo].[Categories_ReadByID] (Procedure)
+       [dbo].[Categories_Update] (Procedure)
+       [dbo].[Questions_ReadAllView] (Procedure)
+       [dbo].[Choices_Delete] (Procedure)
+       [dbo].[Levels_Delete] (Procedure)
+       [dbo].[Levels_Insert] (Procedure)
+       [dbo].[Levels_ReadAll] (Procedure)
+       [dbo].[Levels_ReadByID] (Procedure)
+       [dbo].[Levels_Update] (Procedure)
+       [dbo].[Tags_Delete] (Procedure)
+       [dbo].[Tags_Insert] (Procedure)
+       [dbo].[Tags_ReadAll] (Procedure)
+       [dbo].[Tags_ReadByID] (Procedure)
+       [dbo].[Tags_Update] (Procedure)
+       [dbo].[Users_Insert] (Procedure)
+       [dbo].[Users_ReadAll] (Procedure)
+       [dbo].[Users_ReadByID] (Procedure)
+       [dbo].[Users_Update] (Procedure)
+
+The column IsCorrect on table [dbo].[ArchivedChoices] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column Value on table [dbo].[ArchivedChoices] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column IsCorrect on table [dbo].[Choices] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column Value on table [dbo].[Choices] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[QuizUserLinks].[OnlineOrDownloaded] is being dropped, data loss could occur.
+The column [dbo].[QuizUserLinks].[OnlineOrDownloanded] on table [dbo].[QuizUserLinks] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+If this deployment is executed, changes to [dbo].[Answers] might introduce run-time errors in [dbo].[Answers_ReadByArchivedChoiceID].
+If this deployment is executed, changes to [dbo].[Answers] might introduce run-time errors in [dbo].[Answers_ReadByArchivedQuestionID].
+If this deployment is executed, changes to [dbo].[Answers] might introduce run-time errors in [dbo].[Answers_ReadByQuizID].
+If this deployment is executed, changes to [dbo].[ArchivedChoices] might introduce run-time errors in [dbo].[ArchivedChoices_ReadByArchivedQuestionID].
+If this deployment is executed, changes to [dbo].[Tags] might introduce run-time errors in [dbo].[QuestionTagViews_ReadAll].
+

@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[QuizUserLinks].[OnlineOrDownloaded] (Column)
+     Alter
+       [dbo].[QuizUserLink_Insert] (Procedure)
+       [dbo].[QuizUserLinks_ReadAll] (Procedure)
+       [dbo].[QuizUserLinks_ReadByQuizId] (Procedure)
+       [dbo].[QuizUserLinks_ReadByUserId] (Procedure)
+       [dbo].[QuizUserLinks_Update] (Procedure)
+       [dbo].[QuizView_ReadAll] (Procedure)
+
+** Supporting actions

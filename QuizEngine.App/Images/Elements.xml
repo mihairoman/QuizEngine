@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\activateuser.png" Url="Images/activateuser.png" ReplaceContent="TRUE" />
+    <File Path="Images\add.png" Url="Images/add.png" ReplaceContent="TRUE" />
+    <File Path="Images\animated-overlay.gif" Url="Images/animated-overlay.gif" ReplaceContent="TRUE" />
+    <File Path="Images\close.png" Url="Images/close.png" ReplaceContent="TRUE" />
+    <File Path="Images\close-icon.png" Url="Images/close-icon.png" ReplaceContent="TRUE" />
+    <File Path="Images\deactivateuser.png" Url="Images/deactivateuser.png" ReplaceContent="TRUE" />
+    <File Path="Images\delete.png" Url="Images/delete.png" ReplaceContent="TRUE" />
+    <File Path="Images\delete_and_replace.png" Url="Images/delete_and_replace.png" ReplaceContent="TRUE" />
+    <File Path="Images\down_arrow.png" Url="Images/down_arrow.png" ReplaceContent="TRUE" />
+    <File Path="Images\edit.png" Url="Images/edit.png" ReplaceContent="TRUE" />
+    <File Path="Images\GoogleSingIn.png" Url="Images/GoogleSingIn.png" ReplaceContent="TRUE" />
+    <File Path="Images\imgBackground.jpg" Url="Images/imgBackground.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\loadingcircles.gif" Url="Images/loadingcircles.gif" ReplaceContent="TRUE" />
+    <File Path="Images\new-guy.png" Url="Images/new-guy.png" ReplaceContent="TRUE" />
+    <File Path="Images\OK.jpg" Url="Images/OK.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\remove.png" Url="Images/remove.png" ReplaceContent="TRUE" />
+    <File Path="Images\right_arrow.png" Url="Images/right_arrow.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_flat_0_aaaaaa_40x100.png" Url="Images/ui-bg_flat_0_aaaaaa_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_flat_0_effbfd_40x100.png" Url="Images/ui-bg_flat_0_effbfd_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_flat_0_ffffff_40x100.png" Url="Images/ui-bg_flat_0_ffffff_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_flat_95_ffffff_40x100.png" Url="Images/ui-bg_flat_95_ffffff_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_2e83ff_256x240.png" Url="Images/ui-icons_2e83ff_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_222222_256x240.png" Url="Images/ui-icons_222222_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_a2a1a1_256x240.png" Url="Images/ui-icons_a2a1a1_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_cd0a0a_256x240.png" Url="Images/ui-icons_cd0a0a_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\umt.png" Url="Images/umt.png" ReplaceContent="TRUE" />
+    <File Path="Images\up_arrow.png" Url="Images/up_arrow.png" ReplaceContent="TRUE" />
+    <File Path="Images\WeAreNotTheSameButAPair.jpg" Url="Images/WeAreNotTheSameButAPair.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\windows-logo.png" Url="Images/windows-logo.png" ReplaceContent="TRUE" />
+    <File Path="Images\wrong.png" Url="Images/wrong.png" ReplaceContent="TRUE" />
+    <File Path="Images\x.png" Url="Images/x.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

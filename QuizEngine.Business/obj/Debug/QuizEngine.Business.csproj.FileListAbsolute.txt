@@ -1,0 +1,15 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Business.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Business.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.AssemblyResources.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Infrastructure.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Library.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Model.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Repository.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.AssemblyResources.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Infrastructure.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Library.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Model.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\bin\Debug\QuizEngine.Repository.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\obj\Debug\QuizEngine.Business.csprojResolveAssemblyReference.cache
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\obj\Debug\QuizEngine.Business.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Business\obj\Debug\QuizEngine.Business.pdb

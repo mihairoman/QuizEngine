@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6c83a205-d8d2-401c-92d7-b1ff83a22534" ChangeDateTime="07/22/2014 14:37:56">
+    <Property Name="ElementName" Value="[dbo].[Questions].[TypeGUID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Questions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="QuestionType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6b4b8f5c-2794-4a52-908e-6e59f5332025" ChangeDateTime="07/25/2014 10:49:34">
+    <Property Name="ElementName" Value="[dbo].[Permissions].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permissions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UseGUID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="95afd283-6edf-49b5-b87a-e4b87eba9ee6" ChangeDateTime="07/25/2014 10:49:47">
+    <Property Name="ElementName" Value="[dbo].[Permissions].[UseGUID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permissions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[UserGUID]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="63dc374c-b9e7-447a-b288-1d216294d2c9" ChangeDateTime="07/25/2014 10:50:37">
+    <Property Name="ElementName" Value="[dbo].[Permissions].[[UserGUID]]]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Permissions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserGUID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="780293fa-0ca4-4bd2-94f0-b2e8a3b71eb3" ChangeDateTime="07/25/2014 09:52:08">
+    <Property Name="ElementName" Value="[dbo].[QuizUserLinks].[OnlineOrDownloanded]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[QuizUserLinks]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OnlineOrDownloaded" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="444fb63f-dd6d-4015-a505-d2aa1cfc3ea8" ChangeDateTime="08/11/2014 06:27:40">
+    <Property Name="ElementName" Value="[dbo].[LinkPermission].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LinkPermission]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Link" />
+  </Operation>
+</Operations>

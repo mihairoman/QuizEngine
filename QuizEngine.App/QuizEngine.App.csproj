@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB9E4E45-B04F-4E84-A8C1-2470C6911269}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuizEngine.App</RootNamespace>
+    <AssemblyName>QuizEngine.App</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{1d0cb6e1-f003-4de2-bbfa-f9cbbdedb303}</AppFeaturePartId>
+    <WspPartId>{ef7b1195-07ae-4ece-ae3b-4940bc6bfbfd}</WspPartId>
+    <WorkflowPartId>{8fb5c22e-6b78-40d3-8b53-be907da5abb3}</WorkflowPartId>
+    <CspkgPartId>{086d63f7-4f89-4854-88a6-3dcac00938c8}</CspkgPartId>
+    <SqlPackagePartId>{875c9a98-9dac-4cd7-87da-9383bd84328e}</SqlPackagePartId>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="MasterPages\app.master" />
+    <None Include="MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{039dc663-53e6-4a8d-966f-00e081093e40}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\GenerateFileHandler.ashx" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{af4d4eb4-832d-40bd-8756-2264fb04cf10}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\EditQuestionStyle.css" />
+    <Content Include="Content\FreeTextQuestionValidationWizard.css" />
+    <Content Include="Content\HomePage.css" />
+    <Content Include="Content\jquery-ui.css" />
+    <Content Include="Content\jquery-ui.theme.css" />
+    <Content Include="Content\jquery-ui.theme.min.css" />
+    <Content Include="Content\LoginStyle.css" />
+    <Content Include="Content\MasterPage.css" />
+    <Content Include="Content\OnlineTestingWizard.css" />
+    <Content Include="Content\Popup.css" />
+    <Content Include="Images\activateuser.png" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\animated-overlay.gif" />
+    <Content Include="Images\close-icon.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\deactivateuser.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\delete_and_replace.png" />
+    <Content Include="Images\down_arrow.png" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\GoogleSingIn.png" />
+    <Content Include="Images\imgBackground.jpg" />
+    <Content Include="Images\loadingcircles.gif" />
+    <Content Include="Images\new-guy.png" />
+    <Content Include="Images\OK.jpg" />
+    <Content Include="Images\remove.png" />
+    <Content Include="Images\right_arrow.png" />
+    <Content Include="Images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Images\ui-bg_flat_0_effbfd_40x100.png" />
+    <Content Include="Images\ui-bg_flat_0_ffffff_40x100.png" />
+    <Content Include="Images\ui-bg_flat_95_ffffff_40x100.png" />
+    <Content Include="Images\ui-icons_222222_256x240.png" />
+    <Content Include="Images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Images\ui-icons_a2a1a1_256x240.png" />
+    <Content Include="Images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Images\umt.png" />
+    <Content Include="Images\up_arrow.png" />
+    <Content Include="Images\WeAreNotTheSameButAPair.jpg" />
+    <Content Include="Images\windows-logo.png" />
+    <Content Include="Images\wrong.png" />
+    <Content Include="Images\x.png" />
+    <Content Include="MasterPages\Elements.xml" />
+    <Content Include="Pages\About.aspx" />
+    <Content Include="Pages\AccessDenied.aspx" />
+    <Content Include="Pages\AdminDownloadGeneratedTest.aspx" />
+    <Content Include="Pages\AdminDownloadPredefinedTest.aspx" />
+    <Content Include="Pages\AdminGenerateOnlineLink.aspx" />
+    <Content Include="Pages\AdminHomeScreen.aspx" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MasterPages\Site.Master" />
+    <None Include="Scripts\jquery-2.1.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{875c9a98-9dac-4cd7-87da-9383bd84328e}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\FreeTextQuestionsPendingAdminResponse.aspx" />
+    <Content Include="Pages\GenerateQuiz.aspx" />
+    <Content Include="Pages\GoodbyePage.aspx" />
+    <Content Include="Pages\HomePage.aspx" />
+    <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\ManageCategories.aspx" />
+    <Content Include="Pages\ManageLevels.aspx" />
+    <Content Include="Pages\ManageQuestions.aspx" />
+    <Content Include="Pages\ManageUsers.aspx" />
+    <Content Include="Pages\OnlineTestingWizard.aspx" />
+    <Content Include="Pages\PermissionDenied.aspx" />
+    <Content Include="Pages\QuizGenerate.aspx" />
+    <Content Include="Pages\QuizHistory.aspx" />
+    <Content Include="Pages\QuizShow.aspx" />
+    <Content Include="Pages\QuizzesPerUser.aspx" />
+    <Content Include="Pages\ScoreQuizzes.aspx" />
+    <Content Include="Pages\UserHomeScreen.aspx" />
+    <Content Include="Pages\WelcomePage.aspx" />
+    <Content Include="Scripts\additional-methods.js" />
+    <Content Include="Scripts\additional-methods.min.js" />
+    <Content Include="Scripts\AdminDownloadGeneratedTest.js" />
+    <Content Include="Scripts\AdminDownloadPredefinedTest.js" />
+    <Content Include="Scripts\AdminGenerateOnlineLink.js" />
+    <Content Include="Scripts\CheckCookie.js" />
+    <Content Include="Scripts\ChoiceControl.js" />
+    <Content Include="Scripts\ChoiceTemplates.js" />
+    <Content Include="Scripts\DropDownListCreator.js" />
+    <Content Include="Scripts\EditQuestion.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\FreeTextQuestionsPendingAdminResponse.js" />
+    <Content Include="Scripts\GenerateQuizManagePage.js" />
+    <Content Include="Scripts\Goodbye.js" />
+    <Content Include="Scripts\GoogleLogin.js" />
+    <Content Include="Scripts\GoogleLogout.js" />
+    <Content Include="Scripts\HomePage.js" />
+    <Content Include="Scripts\InputValidation.js" />
+    <Content Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.tmpl.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\LoadResources.js" />
+    <Content Include="Scripts\LoginWithFacebook.js" />
+    <Content Include="Scripts\LoginWithWindows.js" />
+    <Content Include="Scripts\Logout.js" />
+    <Content Include="Scripts\LogoutWithFacebook.js" />
+    <Content Include="Scripts\ManageCategories.js" />
+    <Content Include="Scripts\ManageLevels.js" />
+    <Content Include="Scripts\ManageQuestions.js" />
+    <Content Include="Scripts\ManageUsers.js" />
+    <Content Include="Scripts\MasterPage.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\NotEnoughQuestions.js" />
+    <Content Include="Scripts\OnlineTestingWizard.js" />
+    <Content Include="Scripts\PagerControl.js" />
+    <Content Include="Scripts\QuestionPopUp.js" />
+    <Content Include="Scripts\QuizEngine.js" />
+    <Content Include="Scripts\QuizGenerate.js" />
+    <Content Include="Scripts\QuizHistory.js" />
+    <Content Include="Scripts\QuizShow.js" />
+    <Content Include="Scripts\Resources.en.js" />
+    <Content Include="Scripts\Resources.it.js" />
+    <Content Include="Scripts\ScoreQuizzes.js" />
+    <Content Include="Scripts\SwapperCreator.js" />
+    <Content Include="Scripts\TagsControl.js" />
+    <Content Include="Scripts\ValidateEditQuestionControl.js" />
+    <Content Include="Scripts\ValidateEditUser.js" />
+    <Content Include="Scripts\verifyChangedPermissions.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a437e0b8-20da-47f9-8c1f-244df63558c9}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{53311b39-302a-4966-84b6-d59c7225c658}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{a1fd2419-18f6-4f34-a4c5-3effe1535889}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{8ffa6983-b3e6-4e8d-8f34-668c6c20a8b6}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

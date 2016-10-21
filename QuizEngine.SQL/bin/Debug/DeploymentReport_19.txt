@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[SplitDecimalStringList] (Function)
+       [dbo].[SplitString] (Function)
+       [dbo].[Answers_ReadByArchivedChoiceID] (Procedure)
+       [dbo].[Answers_ReadByArchivedQuestionID] (Procedure)
+       [dbo].[Answers_ReadByQuizID] (Procedure)
+       [dbo].[Answers_UpdateGrade] (Procedure)
+       [dbo].[FreeTextQuizView_CountAllFilteredQuizzes] (Procedure)
+       [dbo].[QuestionTagViews_ReadAll] (Procedure)
+       [dbo].[QuizUserLinks_UpdateFinalResult] (Procedure)
+       [dbo].[QuizView_Count] (Procedure)
+       [dbo].[QuizView_Read] (Procedure)
+     Alter
+       [dbo].[FreeTextQuizView_ReadAll] (Procedure)
+       [dbo].[Users_Update] (Procedure)
+
+** Supporting actions

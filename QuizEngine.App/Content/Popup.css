@@ -1,0 +1,261 @@
+﻿/*Table CSS*/
+
+.gridviewtable2 a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+
+.gridviewtable2 a:nth-child(even) {
+    color: blue;
+}
+
+.gridviewtable2 {
+    border-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100% !important;
+    border: 1px solid #d7dce0;
+}
+
+    .gridviewtable2 tr:first-child, th {
+        background-color: #ffffff;
+        height: 30px;
+    }
+
+    .gridviewtable2 tr:nth-child(odd) {
+        background-color: #F0F0F0;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .gridviewtable2 tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+    .gridviewtable2 td {
+        vertical-align: middle;
+        text-align: left;
+        padding: 7px;
+        color: #000000;
+    }
+
+    .gridviewtable2 tr:first-child, th {
+        border-bottom: 2px #d7dce0 groove;
+    }
+
+        .gridviewtable2 tr:first-child, th:hover {
+            border-bottom: 2px rgb(0, 67, 200) groove;
+        }
+
+            .gridviewtable2 tr:first-child td {
+                background: -o-linear-gradient(bottom, #F0F0F0 5%, #F0F0F0 100%);
+                background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F0F0F0), color-stop(1, #F0F0F0) );
+                background: -moz-linear-gradient( center top, #F0F0F0 5%, #F0F0F0 100% );
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F0F0F0", endColorstr="#F0F0F0");
+                background: -o-linear-gradient(top,#F0F0F0,F0F0F0);
+                background-color: #F0F0F0;
+                text-align: center;
+                color: #000000;
+            }
+
+            .gridviewtable2 tr:first-child:hover td {
+                background: -o-linear-gradient(bottom, #F0F0F0 5%, #F0F0F0 100%);
+                background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F0F0F0), color-stop(1, #F0F0F0) );
+                background: -moz-linear-gradient( center top, #F0F0F0 5%, #F0F0F0 100% );
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F0F0F0", endColorstr="#F0F0F0");
+                background: -o-linear-gradient(top,#F0F0F0,F0F0F0);
+                background-color: #F0F0F0;
+            }
+
+
+.popupRow {
+	margin: 1% 0;
+	width: 100%;
+	float: left;
+}
+.connectedSortable tr, .ui-sortable-helper {
+    cursor: move;
+}
+.connectedSortable tr:first-child {
+    cursor: default;
+}
+.labelColumn {
+	float: left;
+	width: 25%;
+	margin: 0.5em 0;
+}
+.controlColumn {
+	float: left;
+	width: 75%;
+	margin: 0.5em 0;
+}
+.label {
+	width: 100%;
+}
+.textbox {
+	width: 59.1%;
+}
+.textarea {
+	width: 90%;
+	resize: vertical;
+}
+.dropdown {
+	width: 60%;
+}
+.radiobutton {
+	margin-left: 0 !important;
+}
+.choiceradiocolumn {
+	margin-top: 0.65em;
+	padding: 0.2em 0;
+	margin-right: 1em;
+	float: left;
+	width: 18%;
+}
+.radiolabelcolumn {
+	float: left;
+	width: 75%;
+}
+.radiocontrolcolumn {
+	float: left;
+	width: 25%;
+}
+.choicetextcolumn {
+	margin-top: 0.5em;
+	float: left;
+	width: 65%;
+}
+.choicelabelcolumn {
+	padding: 0.3em 0;
+	float: left;
+	width: 12%;
+}
+.choicecontrolcolumn {
+	float: left;
+	width: 85%;
+}
+.choicetext {
+    resize: vertical;
+	width: 95%;
+}
+.choicebuttoncolumn {
+	margin-top: 0.6em;
+	padding: 0.2em 0;
+	float: left;
+	width: 11%;
+}
+.tagItem {
+	float: left;
+	width: auto;
+	background-color: #ededed;
+	height: 1.5em;
+	border-radius: 20%;
+    padding-left:5px;
+    padding-right:5px;
+    margin-right:5px;
+	margin-top: 1em;
+}
+.tagcontrol {
+	float: left;
+	width: 1.2em;
+	margin-top: 0.05em;
+}
+.taglabel {
+	float: left;
+	width: auto;
+	margin-top: 0.1em;
+}
+.closeImage {
+	padding-top: 0.2em;
+	width: 1em;
+	height: 1em;
+}
+.choicecontroltext.Value {
+	margin-top: 0.5em;
+	margin-right: 1em;
+	float: left;
+	width: 18%;
+}
+.valuelabelcolumn {
+	padding: 0.3em 0;
+	float: left;
+	width: 50%;
+}
+.valuecontrolcolumn {
+	float: left;
+	width: 40%;
+}
+.valuetext {
+	width: 99%;
+}
+.truefalselabelcolumn {
+	float: left;
+	width: 35%;
+}
+.truefalsecontrolcolumn {
+	float: left;
+	width: 25%;
+}
+.toperrorList {
+	width: 95%;
+	color: red;
+}
+.errorList {
+	margin-top: 1em;
+}
+.errorListItem {
+	color: red;
+}
+.tagsInputError {
+	color: red;
+}
+.otherlabelColumn {
+	float: left;
+	width: 40%;
+	margin: 0.5em 0;
+}
+.othercontrolColumn {
+	float: left;
+	width: 60%;
+	margin: 0.5em 0;
+}
+#errorlist {
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+.tagsinputerrorlist {
+	margin-bottom: 0;
+}
+.choicelabel {
+	float: left;
+	width: 22%;
+}
+.choicecontrol {
+	float: left;
+	width: 4%;
+}
+.categorytextbox {
+	float: left;
+	width: 95%;
+}
+.leveltextbox {
+	float: left;
+	width: 95%;
+}
+.permissionlabel {
+	float: left;
+	width: 60%;
+}
+.permissioncontrol {
+	float: left;
+	width: 5%;
+}
+.separator {
+	float: left;
+	margin-top: 0.5em;
+	width: 100%;
+	border-top: 1px solid #d3d3d3;
+}
+.incorrectfield {
+	background-color: #ffc5c5;
+	border: 1px solid red !important;
+}

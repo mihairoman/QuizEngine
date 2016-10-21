@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.8.2.min.js" Url="Scripts/jquery-1.8.2.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.8.2.js" Url="Scripts/jquery-1.8.2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.8.2.intellisense.js" Url="Scripts/jquery-1.8.2.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\additional-methods.js" Url="Scripts/additional-methods.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\additional-methods.min.js" Url="Scripts/additional-methods.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\AdminDownloadGeneratedTest.js" Url="Scripts/AdminDownloadGeneratedTest.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\AdminDownloadPredefinedTest.js" Url="Scripts/AdminDownloadPredefinedTest.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\AdminGenerateOnlineLink.js" Url="Scripts/AdminGenerateOnlineLink.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\CheckCookie.js" Url="Scripts/CheckCookie.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ChoiceControl.js" Url="Scripts/ChoiceControl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ChoiceTemplates.js" Url="Scripts/ChoiceTemplates.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\DropDownListCreator.js" Url="Scripts/DropDownListCreator.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\EditQuestion.js" Url="Scripts/EditQuestion.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\FreeTextQuestionsPendingAdminResponse.js" Url="Scripts/FreeTextQuestionsPendingAdminResponse.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\GenerateQuizManagePage.js" Url="Scripts/GenerateQuizManagePage.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Goodbye.js" Url="Scripts/Goodbye.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\GoogleLogin.js" Url="Scripts/GoogleLogin.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\GoogleLogout.js" Url="Scripts/GoogleLogout.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\HomePage.js" Url="Scripts/HomePage.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\InputValidation.js" Url="Scripts/InputValidation.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.cookie.js" Url="Scripts/jquery.cookie.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.min.js" Url="Scripts/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.tmpl.min.js" Url="Scripts/jquery.tmpl.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.validate.js" Url="Scripts/jquery.validate.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.validate.min.js" Url="Scripts/jquery.validate.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.1.intellisense.js" Url="Scripts/jquery-2.1.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.1.js" Url="Scripts/jquery-2.1.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.1.min.js" Url="Scripts/jquery-2.1.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.1.min.map" Url="Scripts/jquery-2.1.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui.js" Url="Scripts/jquery-ui.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui.min.js" Url="Scripts/jquery-ui.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\LoadResources.js" Url="Scripts/LoadResources.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\LoginWithFacebook.js" Url="Scripts/LoginWithFacebook.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\LoginWithWindows.js" Url="Scripts/LoginWithWindows.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Logout.js" Url="Scripts/Logout.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\LogoutWithFacebook.js" Url="Scripts/LogoutWithFacebook.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ManageCategories.js" Url="Scripts/ManageCategories.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ManageLevels.js" Url="Scripts/ManageLevels.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ManageQuestions.js" Url="Scripts/ManageQuestions.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ManageUsers.js" Url="Scripts/ManageUsers.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\MasterPage.js" Url="Scripts/MasterPage.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.js" Url="Scripts/moment.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\NotEnoughQuestions.js" Url="Scripts/NotEnoughQuestions.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\OnlineTestingWizard.js" Url="Scripts/OnlineTestingWizard.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\PagerControl.js" Url="Scripts/PagerControl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\QuestionPopUp.js" Url="Scripts/QuestionPopUp.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\QuizEngine.js" Url="Scripts/QuizEngine.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\QuizGenerate.js" Url="Scripts/QuizGenerate.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\QuizHistory.js" Url="Scripts/QuizHistory.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\QuizShow.js" Url="Scripts/QuizShow.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Resources.en.js" Url="Scripts/Resources.en.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Resources.it.js" Url="Scripts/Resources.it.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ScoreQuizzes.js" Url="Scripts/ScoreQuizzes.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SwapperCreator.js" Url="Scripts/SwapperCreator.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TagsControl.js" Url="Scripts/TagsControl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ValidateEditQuestionControl.js" Url="Scripts/ValidateEditQuestionControl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ValidateEditUser.js" Url="Scripts/ValidateEditUser.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\verifyChangedPermissions.js" Url="Scripts/verifyChangedPermissions.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

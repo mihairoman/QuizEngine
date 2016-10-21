@@ -1,0 +1,8 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\bin\Debug\QuizEngine.AssemblyResources.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\bin\Debug\QuizEngine.AssemblyResources.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\obj\Debug\QuizEngine.AssemblyResources.BusinessResources.resources
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\obj\Debug\QuizEngine.AssemblyResources.RepositoryResources.resources
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\obj\Debug\QuizEngine.AssemblyResources.UIResources.resources
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\obj\Debug\QuizEngine.AssemblyResources.csproj.GenerateResource.Cache
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\obj\Debug\QuizEngine.AssemblyResources.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.AssemblyResources\obj\Debug\QuizEngine.AssemblyResources.pdb

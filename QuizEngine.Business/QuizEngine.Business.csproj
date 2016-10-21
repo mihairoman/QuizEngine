@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4D02045-0A81-46FF-9781-8FC62B1DADC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuizEngine.Business</RootNamespace>
+    <AssemblyName>QuizEngine.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDownloadGeneratedTestBusiness.cs" />
+    <Compile Include="AdminDownloadPredefinedTestViewBusiness.cs" />
+    <Compile Include="AnswerBusiness.cs" />
+    <Compile Include="ArchivedChoiceBusiness.cs" />
+    <Compile Include="ArchivedQuestionBusiness.cs" />
+    <Compile Include="CategoryBusiness.cs" />
+    <Compile Include="ChoiceBusiness.cs" />
+    <Compile Include="Core\BusinessContext.cs" />
+    <Compile Include="Core\BusinessObject.cs" />
+    <Compile Include="Core\BusinessObjectContainer.cs" />
+    <Compile Include="FreeTextQuizViewBusiness.cs" />
+    <Compile Include="LevelBusiness.cs" />
+    <Compile Include="LinkPermissionBusiness.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionBusiness.cs" />
+    <Compile Include="QuestionTagBusiness.cs" />
+    <Compile Include="QuizBusiness.cs" />
+    <Compile Include="QuizResultBusiness.cs" />
+    <Compile Include="QuizUserLinkBusiness.cs" />
+    <Compile Include="QuizTemplateBusiness.cs" />
+    <Compile Include="SecurityBusiness.cs" />
+    <Compile Include="TagBusiness.cs" />
+    <Compile Include="UserBusiness.cs" />
+    <Compile Include="UsersWithoutQuizViewBusiness.cs" />
+    <Compile Include="ValidationFreeTextQuestionsViewBusiness.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuizEngine.AssemblyResources\QuizEngine.AssemblyResources.csproj">
+      <Project>{728db968-8317-4822-8e44-438cab1e62e0}</Project>
+      <Name>QuizEngine.AssemblyResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuizEngine.Infrastructure\QuizEngine.Infrastructure.csproj">
+      <Project>{2e1bef40-1f23-42de-9c36-58f2bb6b4f7d}</Project>
+      <Name>QuizEngine.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuizEngine.Library\QuizEngine.Library.csproj">
+      <Project>{0e463287-50c4-44e8-bc2e-0d058b025bbf}</Project>
+      <Name>QuizEngine.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuizEngine.Model\QuizEngine.Model.csproj">
+      <Project>{80d36c95-4d63-46fb-a3f6-6c64fbf8aed8}</Project>
+      <Name>QuizEngine.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuizEngine.Repository\QuizEngine.Repository.csproj">
+      <Project>{9361afcd-3343-49fe-a2c8-e3cc019796c8}</Project>
+      <Name>QuizEngine.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

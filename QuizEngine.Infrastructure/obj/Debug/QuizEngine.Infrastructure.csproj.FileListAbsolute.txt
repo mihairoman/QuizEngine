@@ -1,0 +1,4 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.Infrastructure\bin\Debug\QuizEngine.Infrastructure.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Infrastructure\bin\Debug\QuizEngine.Infrastructure.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Infrastructure\obj\Debug\QuizEngine.Infrastructure.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Infrastructure\obj\Debug\QuizEngine.Infrastructure.pdb

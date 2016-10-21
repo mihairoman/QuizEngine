@@ -1,0 +1,74 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Answers_Insert] (Procedure)
+       [dbo].[Answers_Update] (Procedure)
+     Create
+       [dbo].[ArchivedChoices_Insert] (Procedure)
+       [dbo].[ArchivedChoices_ReadAll] (Procedure)
+       [dbo].[ArchivedChoices_ReadByID] (Procedure)
+       [dbo].[ArchivedChoices_Update] (Procedure)
+       [dbo].[ArchivedQuestions_Delete] (Procedure)
+       [dbo].[ArchivedQuestions_Insert] (Procedure)
+       [dbo].[ArchivedQuestions_ReadAll] (Procedure)
+       [dbo].[ArchivedQuestions_ReadByID] (Procedure)
+       [dbo].[ArchivedQuestions_Update] (Procedure)
+       [dbo].[Categories_Delete] (Procedure)
+       [dbo].[Categories_Insert] (Procedure)
+       [dbo].[Categories_ReadAll] (Procedure)
+       [dbo].[Categories_ReadByID] (Procedure)
+       [dbo].[Categories_Update] (Procedure)
+       [dbo].[Choices_Delete] (Procedure)
+       [dbo].[Choices_Insert] (Procedure)
+       [dbo].[Choices_ReadAll] (Procedure)
+       [dbo].[Choices_ReadByID] (Procedure)
+       [dbo].[Choices_Update] (Procedure)
+       [dbo].[Levels_Delete] (Procedure)
+       [dbo].[Levels_Insert] (Procedure)
+       [dbo].[Levels_ReadAll] (Procedure)
+       [dbo].[Levels_ReadByID] (Procedure)
+       [dbo].[Levels_Update] (Procedure)
+       [dbo].[Questions_Delete] (Procedure)
+       [dbo].[Questions_Insert] (Procedure)
+       [dbo].[Questions_ReadAll] (Procedure)
+       [dbo].[Questions_ReadAllView] (Procedure)
+       [dbo].[Questions_ReadByID] (Procedure)
+       [dbo].[Questions_Update] (Procedure)
+       [dbo].[QuestionTags_Delete] (Procedure)
+       [dbo].[QuestionTags_Insert] (Procedure)
+       [dbo].[QuestionTags_ReadAll] (Procedure)
+       [dbo].[QuestionTags_ReadByID] (Procedure)
+       [dbo].[QuestionTags_ReadQuestionsByTagName] (Procedure)
+       [dbo].[Quiz_Delete] (Procedure)
+       [dbo].[Quiz_Insert] (Procedure)
+       [dbo].[Quiz_ReadAll] (Procedure)
+       [dbo].[Quiz_ReadById] (Procedure)
+       [dbo].[Quiz_Update] (Procedure)
+       [dbo].[QuizUserLink_Insert] (Procedure)
+       [dbo].[QuizUserLinks_ReadAll] (Procedure)
+       [dbo].[QuizUserLinks_ReadByQuizId] (Procedure)
+       [dbo].[QuizUserLinks_ReadByUserId] (Procedure)
+       [dbo].[QuizUserLinks_Update] (Procedure)
+       [dbo].[QuizView_ReadAll] (Procedure)
+       [dbo].[Tags_Delete] (Procedure)
+       [dbo].[Tags_Insert] (Procedure)
+       [dbo].[Tags_ReadAll] (Procedure)
+       [dbo].[Tags_ReadByID] (Procedure)
+       [dbo].[Tags_Update] (Procedure)
+       [dbo].[Users_Deactivate] (Procedure)
+       [dbo].[Users_Delete] (Procedure)
+       [dbo].[Users_Insert] (Procedure)
+       [dbo].[Users_ReadAll] (Procedure)
+       [dbo].[Users_ReadByID] (Procedure)
+       [dbo].[Users_Update] (Procedure)
+
+** Supporting actions

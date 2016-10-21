@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Permissions] (Table)
+       [dbo].[FK_Permissions_ToTable] (Foreign Key)
+       [dbo].[ArchivedQuestions_ReadAllByQuizID] (Procedure)
+       [dbo].[Users_SetStatus] (Procedure)
+     Alter
+       [dbo].[ArchivedQuestions_Insert] (Procedure)
+       [dbo].[Questions_Insert] (Procedure)
+       [dbo].[Users_Insert] (Procedure)
+       [dbo].[Users_Update] (Procedure)
+
+** Supporting actions

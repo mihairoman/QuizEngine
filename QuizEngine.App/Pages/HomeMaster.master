@@ -1,0 +1,49 @@
+﻿<%--<%@ Master Language="C#" MasterPageFile="~/Pages/Site.Master" AutoEventWireup="true" CodeBehind="HomeMaster.master.cs" Inherits="QuizEngine.ClassicWebForms.Pages.HomeMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script src="../Scripts/HomePage.js"></script>
+    <link rel="stylesheet" href="../Styles/HomePage.css" />
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="Content" runat="server">
+    <div id="wrapper" class="wrapper">
+        <div id="v-nav">
+            <ul>
+                <li tab="tab1" id="Score" class="first current">
+                    <a href="ScoreQuizzes.aspx">Score Quizzes
+                    <div class="v-nav-description">
+                        Score quizzes that have free text
+                    </div></a>
+                </li>
+
+                <li tab="tab2" id ="PendingQuizzes">
+                    Pending Quizzes
+                    <div class="v-nav-description">
+                        Quizzes that shoud be taken
+                    </div>
+                </li>
+
+                <li tab="tab3">
+                    <a href="QuizHistory.aspx">History
+                    <div class="v-nav-description">
+                        History of Quizzes
+                    </div></a>
+                </li>
+
+                <li tab="tab4" class="last">
+                    Statistics
+                    <div class="v-nav-description">
+                        More information about Quizzes
+                    </div>
+                </li>
+            </ul>
+
+           
+            
+            <div class="tab-content">
+                <asp:ContentPlaceHolder ID="Content" runat="server" />
+            </div>
+        </div>
+    </div>
+</asp:Content>
+
+--%>

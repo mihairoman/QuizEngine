@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="QuizEngineApp"
+     ProductID="{af4d4eb4-832d-40bd-8756-2264fb04cf11}"
+     Version="1.0.0.0"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>QuizEngine.App</Title>
+    <StartPage>~appWebUrl/Pages/Login.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+
+  <RemoteEndpoints>
+    <RemoteEndpoint Url="http://localhost/QuizEngineWebservice" />
+    <RemoteEndpoint Url="http://connect.facebook.net/en_US/sdk.js" />
+    <RemoteEndpoint Url="http://www.facebook.com" />
+    <RemoteEndpoint Url="http://localhost/QuizEngineWebservice/GenerateFileHandler.ashx" />    
+  </RemoteEndpoints>
+
+</App>

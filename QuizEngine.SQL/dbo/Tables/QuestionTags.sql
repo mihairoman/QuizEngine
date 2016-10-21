@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[QuestionTags] (
+    [QuestionGUID] UNIQUEIDENTIFIER NOT NULL,
+    [TagGUID]      UNIQUEIDENTIFIER NOT NULL,
+    CONSTRAINT [PK_QuestionTags] PRIMARY KEY CLUSTERED ([QuestionGUID] ASC, [TagGUID] ASC),
+    CONSTRAINT [FK_QuestionTags_Questions] FOREIGN KEY ([QuestionGUID]) REFERENCES [dbo].[Questions] ([QuestionGUID]) ON UPDATE CASCADE ON DELETE CASCADE,
+    CONSTRAINT [FK_QuestionTags_Tags] FOREIGN KEY ([TagGUID]) REFERENCES [dbo].[Tags] ([TagGUID])
+);
+

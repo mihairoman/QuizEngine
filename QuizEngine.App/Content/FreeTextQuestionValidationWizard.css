@@ -1,0 +1,163 @@
+﻿body {
+
+}
+.hidden {
+    display :none;
+}
+
+.visible {
+    display: block;
+}
+
+#Principal {
+    margin-top:0%;
+    margin-left:5%;
+    margin-right:10%;
+    margin-bottom:10%;
+}
+
+#messages{
+   
+    margin-top:0%;
+    margin-left:0%;
+    margin-right:10%;
+    margin-bottom:10%;
+
+}
+
+#title {
+   
+    margin-top:0%;
+    margin-left:5%;
+    margin-right:10%;
+    margin-bottom:10%;
+
+}
+
+
+#components {
+   
+   
+    margin-left:5%;
+    margin-right:10%;
+    margin-bottom:10%;
+
+}
+
+#components1 {
+
+  
+    margin-left:5%;
+    margin-right:10%;
+    margin-bottom:10%;
+    max-width:100%;
+
+
+}
+
+#components2 {
+
+   
+    margin-left:5%;
+    margin-right:10%;
+    margin-bottom:10%;
+    
+
+}
+
+#components3 {
+ 
+
+    margin-left:5%;
+    margin-right:13%;
+    margin-bottom:13%;
+    display:block;
+
+
+}
+.label1 {
+    
+    color:black;
+    white-space: pre-wrap;
+    font-size: 104%;
+    font-family: Arial;
+}
+.label2 {
+   
+    color: black;
+    white-space: pre-wrap;
+    font-size: 104%;
+    font-family: Arial;
+}
+
+.label3 {
+   
+    color: black;
+    font-size: 104%;
+    font-family: Arial;
+
+}
+
+.label4 {
+   
+    color: black;
+    font-size: 110%;
+    font-family: Arial;
+ 
+
+}
+
+
+
+
+.labelMessagesRed {
+   
+    color: red;
+    font-size: 90%;
+    font-family: Arial;
+ 
+
+}
+.labelMessagesBlack {
+   
+    color: black;
+    font-size: 90%;
+    font-family: Arial;
+ 
+
+}
+
+.text {
+    font-family: Arial;
+}
+
+.previousbtn {
+    color: black;
+    text-align: center !important;
+    font-size: 104%;
+    font-family: Arial;
+    width: 90px;
+    padding-right: 8%;
+    float: left;
+   
+}
+
+.nextbtn {
+    color: black;
+    font-size: 104%;
+    font-family: Arial;
+    text-align: center !important;
+    width: 90px;
+    margin-left:30%;
+}
+
+.submitbtn {
+   text-align: center !important;
+   font-weight: bold;
+   color: black;
+   width: 90px;
+   float:right;
+   font-size: 104%;
+   font-family: Arial;
+}
+

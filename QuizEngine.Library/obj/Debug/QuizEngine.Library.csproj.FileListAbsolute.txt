@@ -1,0 +1,4 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.Library\bin\Debug\QuizEngine.Library.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Library\bin\Debug\QuizEngine.Library.pdb
+C:\Projects\Internship\QuizEngine\QuizEngine.Library\obj\Debug\QuizEngine.Library.dll
+C:\Projects\Internship\QuizEngine\QuizEngine.Library\obj\Debug\QuizEngine.Library.pdb

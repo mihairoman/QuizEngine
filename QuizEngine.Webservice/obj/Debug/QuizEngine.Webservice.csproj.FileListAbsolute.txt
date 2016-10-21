@@ -1,0 +1,1 @@
+C:\Projects\Internship\QuizEngine\QuizEngine.Webservice\obj\Debug\QuizEngine.Webservice.csprojResolveAssemblyReference.cache

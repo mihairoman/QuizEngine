@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>QuizEngine.SQL</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{4b39fd20-317a-4d6f-a5e8-e65415a64291}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>QuizEngine.SQL</RootNamespace>
+    <AssemblyName>QuizEngine.SQL</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatTSqlWarningsAsErrors>False</TreatTSqlWarningsAsErrors>
+  </PropertyGroup>
+  <!-- VS10 without SP1 will not have VisualStudioVersion set, so do that here -->
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- Default to the v10.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\User Defined Types\" />
+    <Folder Include="dbo\Tables" />
+    <Folder Include="Scripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Stored Procedures\Choices_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Choices_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Choices_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Choices_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Choices_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Questions_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Questions_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Questions_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Questions_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Questions_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Users_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Users_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Users_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Users_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_DeleteAnswerText.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_DeleteGrade.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_Update.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedChoices_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedChoices_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedChoices_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedChoices_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedChoices_Update.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedQuestions_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedQuestions_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedQuestions_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedQuestions_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedQuestions_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Quiz_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Quiz_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Quiz_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Quiz_ReadById.sql" />
+    <Build Include="dbo\Stored Procedures\Quiz_Update.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLink_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLinks_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLinks_ReadByQuizId.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLinks_ReadByUserId.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLinks_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Categories_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Categories_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Categories_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Categories_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Categories_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Levels_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Levels_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Levels_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Levels_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Levels_Update.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTags_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTags_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTags_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTags_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Tags_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Tags_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Tags_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Tags_ReadByID.sql" />
+    <Build Include="dbo\Stored Procedures\Tags_Update.sql" />
+    <Build Include="dbo\Stored Procedures\QuizView_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Questions_ReadAllFiltered.sql" />
+    <Build Include="dbo\Stored Procedures\Users_SetStatus.sql" />
+    <Build Include="dbo\Tables\Permissions.sql" />
+    <Build Include="dbo\Stored Procedures\Users_ReadPermissions.sql" />
+    <Build Include="dbo\Stored Procedures\Users_UpdatePermissions.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedQuestions_ReadAllByQuizID.sql" />
+    <Build Include="dbo\Stored Procedures\QuizesPerUserView_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Categories_CanBeDeleted.sql" />
+    <Build Include="dbo\Stored Procedures\Categories_CountUsingQuestions.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedChoices_ReadByQuestionIDS.sql" />
+    <Build Include="dbo\User Defined Types\QuestionGUIDS.sql" />
+    <Build Include="dbo\Stored Procedures\ArchivedQuestions_InsertById.sql" />
+    <Build Include="dbo\Stored Procedures\FreeTextQuizView_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\QuizTemplate_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\QuizTemplate_ReadById.sql" />
+    <Build Include="dbo\Stored Procedures\TemplateQuestionLinks_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\TemplateQuestionLinks_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\TemplateQuestionLinks_ReadByQuizId.sql" />
+    <Build Include="dbo\Stored Procedures\QuizTemplate_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\QuizResultView_ReadResult.sql" />
+    <Build Include="dbo\Stored Procedures\Users_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTags_ReadQuestionsByTagName.sql" />
+    <Build Include="dbo\Stored Procedures\Tags_ReadAllByQuestionID.sql" />
+    <Build Include="dbo\Stored Procedures\Choices_ReadByQuestionID.sql" />
+    <Build Include="dbo\Stored Procedures\Levels_ReadByDifficulty.sql" />
+    <Build Include="dbo\Stored Procedures\Questions_ReadByQuizTemplateID.sql" />
+    <Build Include="dbo\Tables\Answers.sql" />
+    <Build Include="dbo\Tables\ArchivedChoices.sql" />
+    <Build Include="dbo\Tables\ArchivedQuestions.sql" />
+    <Build Include="dbo\Tables\Categories.sql" />
+    <Build Include="dbo\Tables\Choices.sql" />
+    <Build Include="dbo\Tables\Levels.sql" />
+    <Build Include="dbo\Tables\Questions.sql" />
+    <Build Include="dbo\Tables\QuestionTags.sql" />
+    <Build Include="dbo\Tables\Quizes.sql" />
+    <Build Include="dbo\Tables\QuizTemplates.sql" />
+    <Build Include="dbo\Tables\QuizUserLinks.sql" />
+    <Build Include="dbo\Tables\Tags.sql" />
+    <Build Include="dbo\Tables\TemplateQuestionLinks.sql" />
+    <Build Include="dbo\Tables\Users.sql" />
+    <Build Include="dbo\Tables\Permissions.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTags_DeleteByQuestionID.sql" />
+    <Build Include="dbo\Stored Procedures\Choices_DeleteByQuestionID.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTags_InsertByQuestionGUIDAndListOfTagGUID.sql" />
+    <Build Include="dbo\Functions\SplitGuidStringList.sql" />
+    <Build Include="dbo\Functions\SplitStringList.sql" />
+    <Build Include="dbo\QuizTemplateView_ReadAll.sql" />
+    <Build Include="dbo\Functions\QuestionMultipleTags.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserPreview_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Users_ReadByEmail.sql" />
+    <Build Include="dbo\Stored Procedures\FreeTextQuestionsView_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\Question_CountAllQuestions.sql" />
+    <Build Include="dbo\Stored Procedures\LinkPermission_ReadLinkPermissionsByUserGuid.sql" />
+    <Build Include="dbo\Tables\LinkPermission.sql" />
+    <Build Include="dbo\Stored Procedures\Question_CountAllFilteredQuestions.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_ReadByArchivedChoiceID.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_ReadByArchivedQuestionID.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_ReadByQuizID.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_UpdateGrade.sql" />
+    <Build Include="dbo\Stored Procedures\QuestionTagViews_ReadAll.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLinks_UpdateFinalResult.sql" />
+    <Build Include="dbo\Functions\fnSplitString.sql" />
+    <Build Include="dbo\Functions\SplitString.sql" />
+    <Build Include="dbo\Functions\SplitDecimalStringList.sql" />
+    <Build Include="dbo\Stored Procedures\Answers_UpdateGrade.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLinks_UpdateFinalResult.sql" />
+    <Build Include="dbo\Stored Procedures\FreeTextQuizView_CountAllFilteredQuizzes.sql" />
+    <Build Include="dbo\Stored Procedures\Users_ReadAllNonAdmin.sql" />
+    <Build Include="dbo\Stored Procedures\Quiz_CountAllPredefined.sql" />
+    <Build Include="dbo\Stored Procedures\Quiz_CountAllRandom.sql" />
+    <Build Include="dbo\Stored Procedures\GeneratedTests_ReadAllPredefined.sql" />
+    <Build Include="dbo\Stored Procedures\GeneratedTests_ReadAllRandom.sql" />
+    <Build Include="dbo\Stored Procedures\Users_WithoutQuizID_CountAll.sql" />
+    <Build Include="dbo\Stored Procedures\Users_WithoutTheQuizID.sql" />
+    <Build Include="dbo\Stored Procedures\QuizView_Read.sql" />
+    <Build Include="dbo\Stored Procedures\QuizView_Count.sql" />
+    <Build Include="dbo\Stored Procedures\Users_ReadAllFilltered.sql" />
+    <Build Include="dbo\Stored Procedures\Users_CountAllUsers.sql" />
+    <Build Include="dbo\Stored Procedures\QuizTemplateView_Read.sql" />
+    <Build Include="dbo\Stored Procedures\QuizTemplate_Count.sql" />
+    <Build Include="dbo\Tables\UserTypes.sql" />
+    <Build Include="dbo\Stored Procedures\Levels_CanBeDeleted.sql" />
+    <Build Include="dbo\Stored Procedures\QuizUserLink_InsertForGeneratingNewLink.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="QuizEngine.SQL.refactorlog" />
+  </ItemGroup>
+</Project>

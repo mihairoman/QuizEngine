@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.8.2.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.8.2.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.8.2.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="additional-methods.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="additional-methods.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="AdminDownloadGeneratedTest.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="AdminDownloadPredefinedTest.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="AdminGenerateOnlineLink.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="CheckCookie.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ChoiceControl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ChoiceTemplates.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="DropDownListCreator.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="EditQuestion.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="FreeTextQuestionsPendingAdminResponse.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="GenerateQuizManagePage.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Goodbye.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="GoogleLogin.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="GoogleLogout.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="HomePage.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="InputValidation.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.cookie.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.tmpl.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.validate.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.validate.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.1.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.1.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.1.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.1.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="LoadResources.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="LoginWithFacebook.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="LoginWithWindows.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Logout.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="LogoutWithFacebook.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageCategories.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageLevels.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageQuestions.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ManageUsers.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="MasterPage.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="moment.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="NotEnoughQuestions.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="OnlineTestingWizard.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="PagerControl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="QuestionPopUp.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizEngine.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizGenerate.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizHistory.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="QuizShow.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Resources.en.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Resources.it.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ScoreQuizzes.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="SwapperCreator.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="TagsControl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ValidateEditQuestionControl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ValidateEditUser.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="verifyChangedPermissions.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

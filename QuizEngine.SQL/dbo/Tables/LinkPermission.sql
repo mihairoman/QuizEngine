@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[LinkPermission]
+(
+	[Link] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [PermissionGUID] UNIQUEIDENTIFIER NOT NULL, 
+    [CSSClass] NVARCHAR(50) NOT NULL
+)

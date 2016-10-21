@@ -1,0 +1,160 @@
+﻿/*#questioncontrols {
+    font-size:12px;
+    text-align:center;
+    vertical-align:middle;
+    font-family:Arial;
+}
+#errors {
+    width:98%;
+    float:left;
+    text-align:left;
+}
+.errorListItem {
+    color:red;
+    overflow:hidden;
+}
+
+
+
+.label {
+    float:left;
+    width:15%;
+    vertical-align:central;
+    text-align:left;
+    margin-right:5px;
+    overflow:visible;
+    margin-right:10px;
+    }
+
+.questionText {
+    width:90%;
+    float:left;
+    
+   }
+
+#QuestionTextBox{
+    resize:vertical;
+    float:left;
+    width:58%;
+    vertical-align:central;
+    
+}
+
+.levelDropDown {
+    width:90%;
+    float:left;
+}
+#questionLevelDropDownList{
+    float:left;
+    width:30%;
+    vertical-align:central;
+}
+.categoryDropDown {
+    width:90%;
+    float:left;
+}
+#questionCategoryDropDownList{
+    float:left;
+    width:30%;
+    vertical-align:central;
+}
+#tags {
+    width:90%;
+    float:left;
+}
+.tagscontainer {
+    float:left;
+    width:58%;
+}
+.tagItem {
+    float:left;
+    height:15px;
+    width:auto;
+    background-color:#C0C0C0; 
+    border-radius: 20%;
+    padding-left:5px;
+    padding-right:5px;
+    margin-right:5px;
+}
+.tagText {
+    float:left;
+    height: inherit;
+    text-align: center;
+    line-height: 12px;
+    vertical-align: central;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.closeImage {
+    float:left;
+    height:15px;
+    width: 15px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+#inputerrorcontainer {
+    float:left;
+    width:inherit;
+}
+#drowntags{
+    float:left;
+    width:52%;
+}
+.tagsinputerrorlist {
+    float:left;
+    color:red;
+}
+.tagsInputError {
+    text-align:center;
+    float:left;
+    color:red;
+}
+#tagsInput{
+    float:left;
+    width:52%;
+    vertical-align:central;
+}
+.submitbtn{
+    float:left;
+}
+.choicesection {
+    float:left;
+    width:90%;
+    vertical-align:central;
+}
+.questiontypeselect {
+    width:99%;
+     float:left;
+}
+.choicecontainer {
+     float:left;
+     width:79%;
+}
+.choiceoptions {
+    width:99%;
+     float:left;
+}
+.choicecontrolcheck {
+    float:left;
+    width:21%;
+}
+.choicecontroltext {
+    float:left;
+    width:44%;
+}
+.choicecontroltext.Value {
+    width:30%;
+}
+.choicecontrolbtns {
+    float:left;
+    width:9%;
+}
+.valuetext {
+    float:left;
+    width:30%;
+}
+.content {
+    width:99%;
+    float:left;
+}*/
